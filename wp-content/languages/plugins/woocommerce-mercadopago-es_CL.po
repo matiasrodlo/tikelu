@@ -1,0 +1,187 @@
+# Translation of Plugins - Mercado Pago payments for WooCommerce - Stable (latest release) in Spanish (Chile)
+# This file is distributed under the same license as the Plugins - Mercado Pago payments for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-04-23 15:30:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: es_CL\n"
+"Project-Id-Version: Plugins - Mercado Pago payments for WooCommerce - Stable (latest release)\n"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/mercadopago/cart-woocommerce"
+msgstr "https://github.com/mercadopago/cart-woocommerce"
+
+#: includes/module/WC_WooMercadoPago_Module.php:574
+#: includes/payments/WC_WooMercadoPago_PaymentAbstract.php:518
+msgid "Peru"
+msgstr "Perú"
+
+#: includes/module/WC_WooMercadoPago_Module.php:570
+#: includes/payments/WC_WooMercadoPago_PaymentAbstract.php:519
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: includes/module/WC_WooMercadoPago_Module.php:540
+msgid "ATTENTION: The currency"
+msgstr "ATENCION: La moneda"
+
+#: includes/module/WC_WooMercadoPago_Module.php:530
+msgid "ERROR: It was not possible to convert the unsupported currency"
+msgstr "ERROR: No fue posible convertir la moneda no soportada"
+
+#: templates/checkout/ticket_checkout.php:96
+msgid "CNPJ"
+msgstr "CNPJ"
+
+#: includes/payments/WC_WooMercadoPago_PaymentAbstract.php:869
+msgid "Store Category"
+msgstr "Categoría de la tienda"
+
+#: includes/payments/hooks/WC_WooMercadoPago_Hook_Ticket.php:83
+#: includes/payments/hooks/WC_WooMercadoPago_Hook_Custom.php:81
+msgid "You will save"
+msgstr "Usted ahorrará"
+
+#: includes/payments/hooks/WC_WooMercadoPago_Hook_Ticket.php:80
+#: includes/payments/hooks/WC_WooMercadoPago_Hook_Custom.php:78
+msgid "Please, inform your coupon code"
+msgstr "Por favor, introduzca el código de su cupón"
+
+#: includes/payments/hooks/WC_WooMercadoPago_Hook_Ticket.php:79
+#: includes/payments/hooks/WC_WooMercadoPago_Hook_Custom.php:77
+msgid "Remove"
+msgstr "Eliminar"
+
+#: templates/checkout/custom_checkout.php:120
+msgid "Issuer"
+msgstr "Emisor"
+
+#: templates/checkout/custom_checkout.php:177
+#: templates/checkout/custom_checkout.php:178
+#: templates/checkout/ticket_checkout.php:49
+#: templates/checkout/ticket_checkout.php:99
+msgid "Invalid Document Number"
+msgstr "Número del Documento inválido"
+
+#: templates/checkout/custom_checkout.php:174
+#: templates/checkout/ticket_checkout.php:46
+msgid "Document number"
+msgstr "Número de Documento"
+
+#: templates/checkout/custom_checkout.php:99
+msgid "Invalid Expiration Date"
+msgstr "Fecha de expiración inválida"
+
+#: templates/checkout/custom_checkout.php:78
+#: templates/checkout/custom_checkout.php:87
+#: templates/checkout/custom_checkout.php:88
+msgid "Invalid Card Number"
+msgstr "Número de tarjeta inválido"
+
+#: templates/checkout/custom_checkout.php:56
+#: templates/checkout/ticket_checkout.php:22
+#: includes/payments/hooks/WC_WooMercadoPago_Hook_Ticket.php:78
+#: includes/payments/hooks/WC_WooMercadoPago_Hook_Custom.php:76
+msgid "Apply"
+msgstr "Aplicar"
+
+#: includes/notification/WC_WooMercadoPago_Notification_Abstract.php:184
+#: includes/notification/WC_WooMercadoPago_Notification_Abstract.php:187
+msgid "Waiting for the ticket payment."
+msgstr "Esperando el pago del ticket."
+
+#: includes/payments/WC_WooMercadoPago_TicketGateway.php:532
+msgid "here"
+msgstr "aquí"
+
+#: includes/payments/WC_WooMercadoPago_CustomGateway.php:245
+msgid "Check the card number."
+msgstr "Compruebe el número de tarjeta."
+
+#: includes/module/preference/WC_WooMercadoPago_PreferenceAbstract.php:361
+#: includes/module/preference/WC_WooMercadoPago_PreferenceAbstract.php:362
+msgid "Discount provided by store"
+msgstr "Descuento dado por la tienda"
+
+#: includes/payments/WC_WooMercadoPago_TicketGateway.php:28
+#: includes/payments/WC_WooMercadoPago_CustomGateway.php:28
+msgid "Mercado Pago - Custom Checkout"
+msgstr "Mercado Pago - Checkout Personalizado"
+
+#: includes/notification/WC_WooMercadoPago_Notification_Abstract.php:141
+msgid "Payment approved."
+msgstr "Pago aprobado."
+
+#: includes/payments/WC_WooMercadoPago_PaymentAbstract.php:1069
+msgid "It appears that your credentials are not properly configured.<br/>Please, go to %s and configure it."
+msgstr "Parece que sus credenciales no están configuradas correctamente.<br/>Por favor, vaya a %s y configúrelo."
+
+#: includes/payments/hooks/WC_WooMercadoPago_Hook_Ticket.php:86
+#: includes/payments/hooks/WC_WooMercadoPago_Hook_Custom.php:84
+msgid "Total of your purchase with discount:"
+msgstr "Total de su compra con descuento:"
+
+#: includes/payments/hooks/WC_WooMercadoPago_Hook_Ticket.php:85
+#: includes/payments/hooks/WC_WooMercadoPago_Hook_Custom.php:83
+msgid "Total of your purchase:"
+msgstr "Total de su compra:"
+
+#: templates/checkout/custom_checkout.php:103
+msgid "Security code"
+msgstr "Código de seguridad"
+
+#: includes/payments/WC_WooMercadoPago_CustomGateway.php:454
+msgid "A problem was occurred when processing your payment. Please, try again."
+msgstr "Un problema se produjo al procesar su pago. Por favor, inténtelo de nuevo."
+
+#: includes/payments/WC_WooMercadoPago_CustomGateway.php:247
+msgid "Check the expiration date."
+msgstr "Compruebe la fecha de expiración."
+
+#: includes/payments/WC_WooMercadoPago_CustomGateway.php:445
+msgid "A problem was occurred when processing your payment. Are you sure you have correctly filled all information in the checkout form?"
+msgstr "Un problema se produjo al procesar su pago. ¿Esta seguro que ha rellenado correctamente toda la información en el formulario de checkout"
+
+#: includes/payments/WC_WooMercadoPago_PaymentAbstract.php:980
+msgid "1x installment"
+msgstr "1x cuotas"
+
+#: includes/module/WC_WooMercadoPago_Module.php:566
+#: includes/payments/WC_WooMercadoPago_PaymentAbstract.php:515
+msgid "Chile"
+msgstr "Chile"
+
+#: includes/payments/WC_WooMercadoPago_CustomGateway.php:423
+#: includes/payments/hooks/WC_WooMercadoPago_Hook_Basic.php:79
+msgid "Click to try again"
+msgstr "Haga clic para intentarlo de nuevo"
+
+#: includes/payments/WC_WooMercadoPago_BasicGateway.php:339
+msgid "Redirect"
+msgstr "Redireccionamiento"
+
+#: includes/payments/hooks/WC_WooMercadoPago_Hook_Basic.php:68
+msgid "Pay with Mercado Pago"
+msgstr "Pagar con Mercado Pago"
+
+#: includes/payments/WC_WooMercadoPago_PaymentAbstract.php:359
+msgid "Title"
+msgstr "Título"
+
+#: includes/module/WC_WooMercadoPago_Module.php:572
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: includes/module/WC_WooMercadoPago_Module.php:560
+#: includes/payments/WC_WooMercadoPago_PaymentAbstract.php:516
+msgid "Colombia"
+msgstr "Colombia"
+
+#. Author of the plugin
+#: includes/payments/WC_WooMercadoPago_PaymentAbstract.php:853
+msgid "Mercado Pago"
+msgstr "Mercado Pago"
